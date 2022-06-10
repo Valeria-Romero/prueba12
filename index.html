@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            <meta charset="utf-8"/> <!--Para mostrar todos los caracteres del español, ej. ñ, é, á, í, etc...-->
+            My first HTML page
+        </title>
+    </head>
+    <body>
+
+        <!--
+        <header></header>
+        <main></main>
+        <nav></nav>
+        <section></section>
+        <article></article>
+        <footer></footer>
+        -->
+
+        <!--Títulos-->
+        <h1>
+            This is the main title of the page
+        </h1>
+        <h2>
+            H2
+        </h2>
+        <h3>
+            H3
+        </h3>
+        <h4>
+            H4
+        </h4>
+        <h5>
+            H5
+        </h5>
+        <h6>
+            H6
+        </h6>
+
+        <!--Párrafos-->
+        <p>
+            Lorem ipsum, dolor sit amet <strong>adipisicing elit</strong> . Quaerat omnis veritatis odit tempora, unde nobis eveniet accusantium quia, laboriosam harum perferendis cum nisi nulla vitae consequuntur ullam. Iure laudantium itaque illo veniam error obcaecati reprehenderit at accusamus nesciunt officia, ipsam suscipit nemo pariatur veritatis rerum.
+        </p>
+
+        
+        <!--Tablas-->
+        <table>
+            <!--Th = título de la tabla, td = datos en la tabla-->
+            <thead>
+                <tr>
+                    <th>Column1</th>
+                    <th>Column2</th>
+                    <th>Column3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Data 4</td>
+                    <td>Data 5</td>
+                    <td>Data 6</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!--Listas con números-->
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+        
+        <!--Listas con bullets-->
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>
+
+        <a href="./About/about.html">Go to about</a>
+        
+        <a href="https://www.google.com/">Google</a>
+
+        <form>
+            <fieldset>
+                <legend>
+                    Title of the form
+                </legend>
+                <label>
+                    First name:
+                </label>
+                <input type="text" id="firstName" name="firstName" placeholder="Your name here"/>
+                <br>
+                <label>Password</label>
+                <input type="password" name="userPassword" id="userPassword"/>
+                <br>
+                Favorite movie
+                <br>
+                <input type="checkbox" name="favoriteMovie" id="lordOfTheRings" value="lotr"/>
+                <label for="lordOfTheRings">Lord Of The Rings</label>
+                <br>
+                <input type="checkbox" name="favoriteMovie" id="harryPotter" value="hp"/>
+                <label for="harryPotter">Harry Potter</label>
+                <br>
+                <input type="checkbox" name="favoriteMovie" id="lionKing" value="lk"/>
+                <label for="lionKing">Lion King</label>
+                <br/>
+
+                Are you liking the class so far?
+                <br/>
+
+                <input type="radio" name="like" id="yes" value="yes">
+                <label for="yes">Yes</label>
+
+                <input type="radio" name="like" id="no" value="no">
+                <label for="no">No</label>
+
+                <input type="radio" name="like" id="maybe" value="maybe">
+                <label for="maybe">Maybe</label>
+
+                <!--Other input types
+                    Date, number, email-->
+            </fieldset>
+            <label for="country">
+                Select your country
+            </label>
+            <select name="0" id="country">
+                <option value="">
+                    Please select a country
+                </option>
+                <option value="CR">Costa Rica</option>
+                <option value="EC">Ecuador</option>
+                <option value="MX">Mexico</option>
+                <option value="US">Estados Unidos</option>
+            </select>
+
+            <br>
+
+            <label for="comment">Leave a comment</label>
+            <textarea name="comment" id="" cols="30" rows="3"></textarea>
+
+            <br>
+
+            <input type="submit" value="Submit"/>
+
+            <button type="submit">Submit</button> <!--Mejor para usarlo con estilos-->
+        </form>
+
+        <img src="Ikea.jpg" alt="Image of Ikea app">
+
+        <video src="Feliz cumple mi G.mp4"></video>
+
+    </body>
+</html>
